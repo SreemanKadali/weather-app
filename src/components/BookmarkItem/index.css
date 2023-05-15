@@ -1,0 +1,12 @@
+.bookmark-item {
+  border-bottom: solid 1px black;
+}
+
+.bookmark-city {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.delete-icon {
+  cursor: pointer;
+}

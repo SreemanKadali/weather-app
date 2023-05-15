@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right bottom, #7192c7, #eac4c1);
+}
+.height-100 {
+  min-height: 100vh;
+}
+.heading {
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 1;
+  isolation: isolate;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  height: 300px;
+
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  border-radius: 15px;
+  background-image: url("https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+}
+
+.weatherImg {
+  background-color: transparent;
+  /* padding: 5px; */
+  isolation: isolate;
+  opacity: 1;
+  /* width: 300px; */
+  /* height: 250px; */
+  margin-top: -40px;
+}
+
+.text {
+  color: #ffffff;
+  isolation: isolate;
+  /* font-weight: bold; */
+  text-align: center;
+}
+.location {
+  margin-top: -50px;
+}
+
+.temp {
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: transparent;
+  outline: none;
+}
+.button:active {
+  outline: none;
+}
+.button:hover {
+  outline: none;
+  /* border: none; */
+}
+.button:focus {
+  outline: none;
+}
